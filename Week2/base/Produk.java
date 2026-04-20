@@ -23,10 +23,18 @@ public class Produk {
         return nama;
     }
 
-    public void tampilkanInfo() {
-        System.out.println("Produk: " + nama);
-        System.out.println("Harga: Rp. " + harga);
-        System.out.println("Stok: " + stok);
-        System.out.println("-------------------------");
+    public void setHarga (double harga) {
+        this.harga = harga;
     }
+
+    public void setStok (int stok) {
+        this.stok = stok;
+    }
+
+    // public void tampilkanInfo() {
+    //     System.out.println("Produk: " + nama);
+    //     System.out.println("Harga: Rp. " + harga);
+    //     System.out.println("Stok: " + stok);
+    //     System.out.println("-------------------------");
+    // }
 }
