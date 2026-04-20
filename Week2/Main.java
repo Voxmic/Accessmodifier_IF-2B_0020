@@ -4,7 +4,7 @@ import Week2.base.Produk;
 
 public class Main {
     public static void main(String[] args) {
-        Produk p = new Produk("Indomie Goreng",5000,100,"Makanan");
+        Produk p = new Produk("Indomie Goreng",5000,100);
 
         System.out.println(p.getNama());
         System.out.println(p.getHarga());;
