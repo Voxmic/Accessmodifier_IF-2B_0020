@@ -1,7 +1,7 @@
 package Week2.base;
 
 public class Produk {
-    private String nama;
+    public String nama;
     String kategori;
     protected double harga;
     public int stok;
