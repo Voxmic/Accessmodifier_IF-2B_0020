@@ -1,6 +1,6 @@
 package Week2.base;
 
-public class Produk {
+public abstract class Produk {
     // atribut
     private String nama;
     private double harga;
@@ -44,6 +44,8 @@ public void kurangiStok(int jumlah) {
 public double hitungTotalHarga(int jumlah) {
     return harga * jumlah;
 }
+
+public abstract double hitungDiskon(int jumlahBeli);
 
 public void beli(int jumlahBeli) {
     if (jumlahBeli <= 0) {

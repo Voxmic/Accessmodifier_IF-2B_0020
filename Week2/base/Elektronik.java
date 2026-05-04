@@ -27,6 +27,11 @@ public class Elektronik extends Produk {
     System.out.println("Masa Garansi: " + masaGaransi);
     }
 
+    @Override
+    public double hitungDiskon(int jumlahBeli) {
+        return jumlahBeli * 0.8;
+    }
+
     //overloading, pajak dengan persentase custom
     public double hitungPajak(int jumlahBeli) {
         return hitungTotalHarga(jumlahBeli) * PPN;

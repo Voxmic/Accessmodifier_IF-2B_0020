@@ -48,6 +48,4 @@ public class Makanan extends Produk {
     public double hitungHargaSetelahDiskon(int jumlahBeli) {
         return hitungTotalHarga(jumlahBeli) - hitungDiskon(jumlahBeli);
     }
-
-    
 }
